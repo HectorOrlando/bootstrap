@@ -1,0 +1,66 @@
+body {
+    background: white;
+}
+
+header, footer, .section-main, .section-portafolio,
+.section-about, .section-contact {
+    padding: 3%;
+}
+
+header, footer {
+    background: #2C3E50;
+}
+
+.section-main , .section-about {
+    background: #18BC9C;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section-portafolio__text {
+    color: #2C3E50;
+    text-align: center;
+}
+
+.section-contact > p {
+    color: #2C3E50;
+}
+
+.form-label, .form-check-label {
+    font-size: 1.5rem;
+}
+
+.form-contact > div > label , #mailHelpe {
+    color: #2C3E50;
+}
+
+footer > div >  h3 {
+    color: white;
+    text-align: center;
+}
+
+.text-big {
+    font-size: 3rem;
+    text-align: center;
+    /* color: white; */
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+ /* imagen  */
+.centrador{
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  
+.imagen{
+    width: auto;
+}
+

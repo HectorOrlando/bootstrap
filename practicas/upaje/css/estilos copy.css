@@ -1,0 +1,78 @@
+body {
+    background: white;
+}
+
+header{
+    background: #2C3E50;
+    padding: 20px;
+}
+
+.container-main , .container-about {
+    background: #18BC9C;
+    padding: 5%;
+}
+
+.container-portafolio {
+    background: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.container-contact {
+    padding: 5%;
+}
+
+footer {
+    background: #2C3E50;
+}
+
+.columna {
+    /* border: 1px solid #8d8d8d; */
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.css-p-footer {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5%;
+}
+
+.css-p-footer-2 {
+    font-size: .9rem;
+}
+
+.css-gray {
+    text-align: center;
+    color: #2C3E50;
+}
+
+.css-big {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.css-justify {
+    text-align: justify;
+}
+
+.centrador{
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  
+.imagen{
+    width: auto;
+}
+
+.css-portafolio {
+    padding: 5%;
+}

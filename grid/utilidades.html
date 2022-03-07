@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Utilidades</title>
+    <style>
+        .row {
+            background: #e8e8e8;
+            margin-top: 20px;
+        }
+
+        .columna {
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+
+        p {
+            padding-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Cambiar el orden de los elementos</h3>
+        <div class="row">
+            <div class="columna col">Columna 1</div>
+            <div class="columna col">Columna 2</div>
+            <div class="columna col">Columna 3</div>
+            <div class="columna col">Columna 4</div>
+        </div>
+        <div class="row">
+            <!-- Cambiar el orden de los elementos con flexbox,
+                 solo hay valores del 1 al 5 en order-1   -->
+            <div class="columna col order-4">Columna 1</div>
+            <div class="columna col order-3">Columna 2</div>
+            <div class="columna col order-2">Columna 3</div>
+            <div class="columna col order-1">Columna 4</div>
+        </div>
+        <p>cambio de orden en tamaño mediano o responsive</p>
+        <div class="row">
+            <!-- Cambiar el orden cuando cambia de tamaño mediano   -->
+            <div class="columna col order-4 order-md-1">Columna 1</div>
+            <div class="columna col order-3 order-md-2">Columna 2</div>
+            <div class="columna col order-2 order-md-3">Columna 3</div>
+            <div class="columna col order-1 order-md-4">Columna 4</div>
+        </div>
+        <p>order con first y last</p>
+        <div class="row">
+            <!-- Cambiar el orden con first y last  -->
+            <div class="columna col order-last">Columna 1</div>
+            <div class="columna col">Columna 2</div>
+            <div class="columna col">Columna 3</div>
+            <div class="columna col order-first">Columna 4</div>
+        </div>
+        <p>mover columna con el offset por cualquier de los 12 espacio de las columnas, tambien cambia de posicion en el
+            responsive</p>
+        <div class="row">
+            <div class="columna col-3 offset-2 offset-sm-6">Columna 1</div>
+        </div>
+        <p>mover varias columnas</p>
+        <div class="row">
+            <div class="columna col-3 offset-3">Columna 1</div>
+            <div class="columna col-3 offset-3">Columna 2</div>
+        </div>
+        <p>columnas automaticas solo con el tamaño de su contenido muy bueno para trabajar con iconos.</p>
+        <div class="row">
+            <div class="columna col-auto">Columna 1</div>
+            <div class="columna col-auto">Columna 2 más ancha</div>
+        </div>
+        <p>columnas automaticas alinear:  me-auto ms-auto   e: final ,  s: star al inicio</p>
+        <div class="row">
+            <div class="columna col-auto">Columna 1</div>
+            <div class="columna col-auto ms-auto">Columna 2 más ancha</div>
+        </div>
+
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

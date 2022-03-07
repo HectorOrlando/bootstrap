@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Gutters Espaciado entre columnas</title>
+    <style>
+        .row {
+            background: #e8e8e8;
+            margin-top: 20px;
+        }
+        .contenido {
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="contenido">Columna 1</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 2</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 3</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 4</div>
+            </div>
+        </div>
+        <!-- Quito los espacios de los lados de la fila con g-0 -->
+        <div class="row g-0">
+            <div class="col-6">
+                <div class="contenido">Columna 1</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 2</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 3</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 4</div>
+            </div>
+        </div>
+        <!-- agregar espacio horizontal en la fila con gx-5 -->
+        <div class="row gx-5">
+            <div class="col-6">
+                <div class="contenido">Columna 1</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 2</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 3</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 4</div>
+            </div>
+        </div>
+        <!-- agregar espacio vertical en la fila  con gy-5 -->
+        <div class="row gy-5">
+            <div class="col-6">
+                <div class="contenido">Columna 1</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 2</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 3</div>
+            </div>
+            <div class="col-6">
+                <div class="contenido">Columna 4</div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
