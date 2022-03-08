@@ -16,22 +16,26 @@
 <body>
     <div class="container">
         <header class="row">
-            <div class="columna col-sm-12 col-lg-7">
-                <p class="h2">UPAJE Aplicaciones WEB</p>
+            <div class="col-sm-12 col-lg-6">
+                <h1>UPAJE Aplicaciones WEB</h1>
             </div>
-            <div class="columna col-md-12 col-lg-5">
-                <div class="row css-white">
-                    <div class="columna col">
-                        <p>PORTAFOLIO</p>
-                    </div>
-                    <div class="columna col">
-                        <p>ABOUT</p>
-                    </div>
-                    <div class="columna col">
-                        <p>CONTACT</p>
+            <nav class="navbar navbar-expand navbar-light col-sm-12 col-lg-6">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav row">
+                            <li class="nav-item col-sm-4">
+                                <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
+                            </li>
+                            <li class="nav-item col-sm-4">
+                                <a class="nav-link" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item col-sm-4">
+                                <a class="nav-link" href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <section class="row section-main justify-content-center">
             <div class="centrador" class="columna col-4">
@@ -40,7 +44,7 @@
             <p class="text-big">START BOOTSTRAP</p>
             <p class="css-white">Web Developer - Graphic Artist - User Experience Designer</p>
         </section>
-        <section class="row section-portafolio justify-content-evenly">
+        <section class="row section-portafolio justify-content-evenly" id="portafolio">
             <p class="section-portafolio__text text-big">PORTAFOLIO</p>
             <div class="centrador columna col-12 col-sm-3">
                 <img class="imagen" src="img/foto-2.png" alt="Raspberry Pi">
@@ -55,7 +59,7 @@
                 <p class="section-portafolio__text">Selenium</p>
             </div>
         </section>
-        <section class="row section-about justify-content-center">
+        <section class="row section-about justify-content-center" id="about">
             <div class="columna col-12 ">
                 <p class="text-big">ABOUT</p>
                 <hr>
@@ -69,7 +73,7 @@
                     graphic artist looking to share your projects, this template is the perfect starting point!/p>
             </div>
         </section>
-        <section class="row section-contact ">
+        <section class="row section-contact" id="contact">
             <p class="text-big">CONTACT</p>
             <form class="form-contact">
                 <div class="mb-3">
