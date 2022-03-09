@@ -1,76 +1,120 @@
 body {
-    background: white;
+  background: #ffffff;
 }
 
-header, footer, .section-main, .section-portafolio,
-.section-about, .section-contact {
-    padding: 3%;
+footer,
+.section-portafolio,
+.section-about,
+.section-contact {
+  padding: 3%;
 }
 
-header, footer {
-    background: #2C3E50;
+header {
+  width: 100%;
+  align-items: center;
+  left: 0%;
+  top: 0%;
+  position: fixed;
 }
 
-#navbarNav .nav-link {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
+header,
+footer,
+.bg-nav-color {
+  background: #20232a;
 }
 
-.section-main , .section-about {
-    background: #18BC9C;
+.section-main {
+  margin-top: 5%;
+  padding-top: 3%;
+}
+
+#navbarSupportedContent {
+  padding-left: 30%;
+}
+
+#navbar-nav .nav-link__custom {
+  color: #ffffff;
+}
+
+.section-main,
+.section-about {
+  background: #282c34;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
 }
 
 p {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .section-portafolio__text {
-    color: #2C3E50;
-    text-align: center;
+  color: #2c3e50;
+  text-align: center;
 }
 
 .section-contact > p {
-    color: #2C3E50;
+  color: #2c3e50;
 }
 
-.form-label, .form-check-label {
-    font-size: 1.5rem;
+.form-label,
+.form-check-label {
+  font-size: 1.5rem;
 }
 
-.form-contact > div > label , #mailHelpe {
-    color: #2C3E50;
+.form-contact > div > label,
+#mailHelpe {
+  color: #2c3e50;
 }
 
-footer > div >  h3 {
-    color: white;
-    text-align: center;
+footer > div > h3 {
+  color: #999999;
+  text-align: center;
 }
 
 .text-big {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
- /* imagen  */
-.centrador{
-    text-align: center;
-    width: auto;
-    height: auto;
+/* imagen  */
+.centrador {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.imagen {
+  width: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    left: 1%;
   }
-  
-.imagen{
-    width: auto;
+  #navbarSupportedContent {
+    padding-left: 0%;
+  }
+  .section-main {
+    margin-top: 8%;
+    padding-top: 3%;
+  }
 }
 
+@media only screen and (max-width: 390px) {
+  header {
+    left: 3%;
+  }
+  .section-main {
+    margin-top: 15%;
+    padding-top: 5%;
+  }
+}
